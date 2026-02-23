@@ -1,172 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <title>Prince AR Abdur Rahman | Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-<style>
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
-  color: #fff;
-  scroll-behavior: smooth;
-}
-
-header {
-  text-align: center;
-  padding: 80px 20px;
-}
-
-header h1 {
-  font-size: 3rem;
-  animation: fadeDown 1.5s ease;
-}
-
-header p {
-  font-size: 1.2rem;
-  opacity: 0.9;
-}
-
-section {
-  padding: 60px 20px;
-  max-width: 900px;
-  margin: auto;
-}
-
-.card {
-  background: rgba(255,255,255,0.1);
-  padding: 25px;
-  border-radius: 15px;
-  margin: 20px 0;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0,0,0,0.4);
-}
-
-a {
-  color: #00ffd5;
-  text-decoration: none;
-}
-
-@keyframes fadeDown {
-  from { opacity: 0; transform: translateY(-30px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-</style>  </style>
+  <title>Prince | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>Prince AR Abdur Rahman</h1>
-  <p>Writer • Learner • Web Enthusiast</p>
-</header>
+<h1>Prince AR Abdur Rahman</h1>
+<p>Writer | Student</p>
 
-<section>
-  <h2>About Me</h2>
-  <div class="card">
-    <p>
-      I am a passionate writer and technology learner from Bangladesh.
-      I love creating content, learning web development, and building projects
-      using tools like Termux, GitHub, and modern web platforms.
-    </p>
-  </div>
-</section>
+<h2>About Me</h2>
+<p>
+I am a student of Sunflower School & College.
+I love writing books and learning technology.
+</p>
 
-<section>
-  <h2>What I Do</h2>
-  <div class="card">
-    <ul>
-      <li>✍️ Writing books and creative content</li>
-      <li>💻 Learning web development</li>
-      <li>⚙️ Working with GitHub, APIs, and Termux</li>
-      <li>🚀 Building personal projects</li>
-    </ul>
-  </div>
-</section>
+<h2>My Books</h2>
+<ul>
+  <li>The Creator – Motivational Book</li>
+  <li>শেষ বিকেলের চিঠি – Emotional Novel</li>
+  <li>মাইন্ডসেট (Mindset) – Self Development</li>
+</ul>
 
-<section>
-  <h2>Projects</h2>
-  <div class="card">
-    <p>Personal Portfolio Website (This website)</p>
-    <p>More projects coming soon...</p>
-  </div>
-</section>
+<h2>Education</h2>
+<p>
+Sunflower School & College<br>
+Sonaraye Songolshi High School
+</p>
 
-<section>
 <h2>Contact</h2>
-<div class="card">
-  <p>📧 Email: 
-    <a href="mailto:prince.ar.abdur.rahman2008@gmail.com">
-      prince.ar.abdur.rahman2008@gmail.com
-    </a>
-  </p>
+<p>Phone: 01796951709</p>
+<p>Email: prince.ar.abdur.rahman2008@gmail.com</p>
+<p>
+<a href="https://www.facebook.com/share/1HAMRjdXVV/">Facebook</a><br>
+<a href="https://www.instagram.com/ur___abdur____rahman__2008">Instagram</a>
+</p>
 
-  <p>📞 Phone: 
-    <a href="tel:01796951709">
-      01796951709
-    </a>
-  </p>
+<canvas id="box"></canvas>
 
-  <p>📘 Facebook: 
-    <a href="https://www.facebook.com/share/1AjoQSzerg/" target="_blank">
-      Visit Profile
-    </a>
-  </p>
+<script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js"></script>
+<script src="script.js"></script>
 
-  <p>📸 Instagram: 
-    <a href="https://www.instagram.com/ur___abdur____rahman__2008?igsh=MTE4MDVoN2dpanVhNA==" target="_blank">
-      Visit Profile
-    </a>
-  </p>
-
-  <p>💻 GitHub: 
-    <a href="https://github.com/rahman2008-svg" target="_blank">
-      github.com/rahman2008-svg
-    </a>
-  </p>
-</div>	
-<header>
-  <h1>Prince AR Abdur Rahman</h1>
-  <p>Writer • Learner • Web Enthusiast</p>
-</header>
-
-<section id="about">
-  <h2>About Me</h2>
-  <div class="card">
-    <p>
-      আমি Prince AR Abdur Rahman। আমি লেখালেখি করতে ভালোবাসি এবং
-      নিজেকে প্রতিনিয়ত শেখার মধ্যে রাখি।
-      প্রযুক্তি, ওয়েব ডেভেলপমেন্ট এবং সৃজনশীল কাজের প্রতি আমার গভীর আগ্রহ আছে।
-    </p>
-    <p>
-      আমি মোবাইল ফোন ব্যবহার করেই Termux, GitHub এবং Render দিয়ে
-      আমার নিজস্ব ওয়েবসাইট তৈরি করেছি—যেটা আমার শেখার মানসিকতা আর
-      আত্মনির্ভরতার পরিচয় দেয়।
-    </p>
-  </div>
-</section>
-<section id="skills">
-  <h2>Skills</h2>
-  <div class="card">
-    <ul>
-      <li>✍️ Creative Writing</li>
-      <li>🌐 HTML, CSS (Basic)</li>
-      <li>📱 Termux & GitHub</li>
-      <li>🚀 Render Deployment</li>
-    </ul>
-  </div>
-</section>
-
-<section id="projects">
-  <h2>Projects</h2>
-  <div class="card">
-    <p>📌 Personal Portfolio Website</p>
-    <p>📌 Book & Writing Projects (Upcoming)</p>
-  </div>
-</section>	
-
+</body>
+</html>
