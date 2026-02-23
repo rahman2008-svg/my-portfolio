@@ -5,50 +5,59 @@
   <title>Prince AR Abdur Rahman | Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #0f172a;
-      color: #e5e7eb;
-    }
-    header {
-      background: linear-gradient(135deg, #2563eb, #1e40af);
-      padding: 40px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 32px;
-    }
-    header p {
-      font-size: 18px;
-      opacity: 0.9;
-    }
-    section {
-      padding: 40px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #60a5fa;
-    }
-    .card {
-      background: #020617;
-      padding: 20px;
-      border-radius: 10px;
-      margin-top: 15px;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #020617;
-      font-size: 14px;
-    }
-    a {
-      color: #38bdf8;
-      text-decoration: none;
-    }
-  </style>
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+header {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  animation: fadeDown 1.5s ease;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 25px;
+  border-radius: 15px;
+  margin: 20px 0;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+}
+
+a {
+  color: #00ffd5;
+  text-decoration: none;
+}
+
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+</style>  </style>
 </head>
 <body>
 
@@ -121,3 +130,43 @@
     </a>
   </p>
 </div>	
+<header>
+  <h1>Prince AR Abdur Rahman</h1>
+  <p>Writer • Learner • Web Enthusiast</p>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      আমি Prince AR Abdur Rahman। আমি লেখালেখি করতে ভালোবাসি এবং
+      নিজেকে প্রতিনিয়ত শেখার মধ্যে রাখি।
+      প্রযুক্তি, ওয়েব ডেভেলপমেন্ট এবং সৃজনশীল কাজের প্রতি আমার গভীর আগ্রহ আছে।
+    </p>
+    <p>
+      আমি মোবাইল ফোন ব্যবহার করেই Termux, GitHub এবং Render দিয়ে
+      আমার নিজস্ব ওয়েবসাইট তৈরি করেছি—যেটা আমার শেখার মানসিকতা আর
+      আত্মনির্ভরতার পরিচয় দেয়।
+    </p>
+  </div>
+</section>
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card">
+    <ul>
+      <li>✍️ Creative Writing</li>
+      <li>🌐 HTML, CSS (Basic)</li>
+      <li>📱 Termux & GitHub</li>
+      <li>🚀 Render Deployment</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
+    <p>📌 Personal Portfolio Website</p>
+    <p>📌 Book & Writing Projects (Upcoming)</p>
+  </div>
+</section>	
+
